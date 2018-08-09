@@ -1,0 +1,132 @@
+/* All pages: Main theme */ 
+
+body {
+    background-color: white;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+h2, h3 {
+    color: black;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.footer {
+    position: absolute;
+    margin-top: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Avatar CSS */ 
+.avatar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -90px;
+}
+
+/* Avatar styling */ 
+.avatar img {
+    border-radius: 50%;
+    border: 2px solid lightslategray;
+}
+
+/* Website navigation link styles */ 
+a:visited, a:link {
+    padding: 0px 5px;
+    text-decoration: none;
+    color: rgb(87, 149, 211);
+}
+
+a:hover {
+    color: #003569;
+}
+
+/* All pages: Social media icons */ 
+.banner-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    max-width: 300px;
+}
+
+.banner-right a {
+    padding: 12px 10px 2px 10px;
+}
+
+.banner-right a.linkedin:hover, a.twitter:hover, a.github:hover {
+    color: #003569;
+}
+
+/* Homepage: greeting message */ 
+.welcome_greeting_info {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -280px;
+    height: 100%;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* All pages: Adjustment on avatar placement */ 
+    .avatar {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        margin-top: -265px;
+        margin-left: -90px;
+    }
+
+    /* All pages: Adjustment to social media icons to be central above avatar */ 
+    .banner-right {
+        top: 10%;
+        left: 50%;
+        margin-top: -45px;
+        margin-left: -150px;
+        height: 100%;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    /* About: Adjustment for phone screen size */ 
+    .welcome_greeting_info {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-top: 25px;
+        margin-left: -150px;
+        height: 100%;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+} 
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+}
